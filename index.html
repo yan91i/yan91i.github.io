@@ -1,8 +1,64 @@
-Yang Li BIM Tools
-Welcome to my BIM website.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yang Li | BIM Tools, plugins and workflow utilities">
+  <title>Yang Li | BIM Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home"><span class="mark">YL</span><span>Yang Li / BIM Tools</span></a>
+  <button class="menu" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav>
+    <a href="#home">Home</a><a href="#tools">Tools</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section id="home" class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">BIM · AUTOMATION · DIGITAL DELIVERY</p>
+      <h1>Practical tools for better BIM workflows.</h1>
+      <p class="lead">A lightweight portal for my Navisworks, Revit, Civil 3D and data automation projects.</p>
+      <div class="actions"><a class="btn primary" href="#tools">Explore tools</a><a class="btn" href="#about">About me</a></div>
+    </div>
+    <div class="terminal" aria-label="BIM workflow graphic">
+      <div class="terminal-top"><i></i><i></i><i></i></div>
+      <pre><span>&gt;</span> BIM_WORKFLOW.init()
 
-Tools
-Navisworks Tools
-Revit Tools
-IFC Viewer
-BIM Dashboard
+model       <b>CONNECTED</b>
+properties  <b>READY</b>
+clashes     <b>CHECKED</b>
+automation  <b>ONLINE</b>
+
+<span>&gt;</span> build smarter_</pre>
+    </div>
+  </section>
+
+  <section id="tools" class="section">
+    <div class="heading"><p class="eyebrow">PROJECTS</p><h2>BIM Tools</h2><p>Replace the sample links below with your GitHub repositories or download pages.</p></div>
+    <div class="filters" aria-label="Tool filters">
+      <button class="active" data-filter="all">All</button><button data-filter="navisworks">Navisworks</button><button data-filter="revit">Revit</button><button data-filter="civil3d">Civil 3D</button><button data-filter="data">Data</button>
+    </div>
+    <div class="grid">
+      <article class="card" data-category="navisworks"><span class="tag">Navisworks</span><h3>Clash Viewpoint Tool</h3><p>Create and organize clash viewpoints for review and reporting workflows.</p><a href="#" class="project-link">View project →</a></article>
+      <article class="card" data-category="navisworks data"><span class="tag">Navisworks · Data</span><h3>Property Exporter</h3><p>Export selected model properties into structured CSV/XLSX-ready datasets.</p><a href="#" class="project-link">View project →</a></article>
+      <article class="card" data-category="navisworks"><span class="tag">Navisworks</span><h3>Clash Marker</h3><p>Visual markers for model coordination and clash review.</p><a href="#" class="project-link">View project →</a></article>
+      <article class="card" data-category="revit"><span class="tag">Revit</span><h3>Revit Utilities</h3><p>A home for practical Revit add-ins and automation experiments.</p><a href="#" class="project-link">View project →</a></article>
+      <article class="card" data-category="civil3d data"><span class="tag">Civil 3D · Data</span><h3>DWG Data Export</h3><p>Workflow utilities for extracting Civil 3D element information.</p><a href="#" class="project-link">View project →</a></article>
+      <article class="card" data-category="data"><span class="tag">Data</span><h3>BIM Dashboard</h3><p>Model and coordination data prepared for clear project dashboards.</p><a href="#" class="project-link">View project →</a></article>
+    </div>
+  </section>
+
+  <section id="about" class="section split">
+    <div><p class="eyebrow">ABOUT</p><h2>Engineering BIM through code.</h2></div>
+    <div><p>I work across BIM coordination, model data and workflow automation. This site collects small tools and experiments designed to make repetitive BIM tasks simpler and more reliable.</p><div class="skills"><span>Navisworks</span><span>Revit</span><span>Civil 3D</span><span>Tekla</span><span>Power BI</span><span>Automation</span></div></div>
+  </section>
+
+  <section id="contact" class="cta"><p class="eyebrow">CONTACT</p><h2>Let’s build a better BIM workflow.</h2><p>Edit the email address in <code>index.html</code> before publishing.</p><a class="btn primary" href="mailto:your-email@example.com">Email me</a></section>
+</main>
+<footer><span>© <span id="year"></span> Yang Li</span><span>Built for GitHub Pages</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
